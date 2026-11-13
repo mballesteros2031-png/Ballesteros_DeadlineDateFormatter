@@ -1,0 +1,13 @@
+event_name = input("Enter event title: ")
+yr = input("Enter year: ")
+mo = input("Enter month(1-12): ")
+dy = input("Enter day: ")
+
+formatted_date = f"{yr}-{mo}-{dy}"
+
+print("\nBasic Output:")
+print(f"Event: {event_name.upper()}")
+print(f"Date: {formatted_date}")
+print(f"Year: {yr}")
+print(f"Month: {mo}")
+print(f"Day: {dy}")
